@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 242, 244);
+}
+
+.clear {
+    clear: both;
+}
+
+/* Container */
+.container {
+    width: 75%;
+    margin: auto;
+    align-items: center;
+}
+
+/* Navigation */
+#koti {
+    padding-top: 30px;
+    font-size: x-large;
+    text-align: center;
+}
+
+#nav-list {
+    background-image: url('https://www.shutterstock.com/image-photo/beautiful-grunge-velvet-dark-navy-600nw-2060169125.jpg');
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #08b9caa3;
+    overflow: hidden;
+}
+
+#nav-logo-image {
+    height: 60px;
+    display: block;
+    float: left;
+    margin: 10px;
+}
+
+.nav-item {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 40px 20px 30px 20px;
+}
+
+.nav-item a {
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(241, 242, 244);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+}
+
+/* Miten voin auttaa section */
+.text-highlight {
+    color: #08b9caa3;
+}
+.text-highlight:hover {
+    text-decoration: underline;
+}
+
+#Miten-voimme-auttaa {
+    padding-top: 30px;
+    font-size: larger;
+    text-align: center;
+}
+
+/* Yhteystiedot section */
+#Yhteystiedot {
+    background: url('https://media.istockphoto.com/id/1319844646/fi/vektori/lattian-harmaa-sementtirakenne-vektori-3d-harmaa-betonisein%C3%A4huoneen-pinta-jossa-on-s%C3%A4r%C3%B6ill%C3%A4.jpg?s=612x612&w=0&k=20&c=Ni_VCzMjOX5Sd4S20QgZuge2fJpqNnKdNaXMtAY6rMo=') center/cover no-repeat;
+    padding: 10px 50px;
+    margin: 70px auto 50px;
+    font-size: large;
+}
+
+#Yhteystiedot-header {
+    color: rgb(48, 60, 224);
+}
+
+.yhteyst-gym-img {
+    width: 200px;
+    float: left;
+    margin-top: 30px;
+    font-size: x-large;
+    mix-blend-mode: multiply;
+}
+
+/* Footer */
+footer {
+    background: url('https://media.istockphoto.com/id/1319844646/fi/vektori/lattian-harmaa-sementtirakenne-vektori-3d-harmaa-betonisein%C3%A4huoneen-pinta-jossa-on-s%C3%A4r%C3%B6ill%C3%A4.jpg?s=612x612&w=0&k=20&c=Ni_VCzMjOX5Sd4S20QgZuge2fJpqNnKdNaXMtAY6rMo=') center/cover no-repeat;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+}
